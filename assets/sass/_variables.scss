@@ -1,0 +1,18 @@
+// Variables
+
+// breakpoints
+$breakpoints:(
+    screen-xs:   "(max-width: 767px)",
+    screen-xs-p: "(max-width: 767px) and (orientation: portrait)",
+    screen-xs-l: "(max-width: 767px) and (orientation: landscape)",
+
+    screen-sm:   "(min-width: 768px) and (max-width: 991px)",
+    screen-sm-p: "(min-width: 768px) and (max-width: 991px) and (orientation: portrait)",
+    screen-sm-l: "(min-width: 768px) and (max-width: 991px) and (orientation: landscape)",
+
+    screen-md:   "(min-width: 992px) and (max-width: 1199px)",
+    screen-md-p: "(min-width: 992px) and (max-width: 1199px) and (orientation: portrait)",
+    screen-md-l: "(min-width: 992px) and (max-width: 1199px) and (orientation: landscape)",
+
+    screen-lg:   "(min-width: 1200px)"
+);
